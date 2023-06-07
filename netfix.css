@@ -1,0 +1,562 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#main{
+    background:  linear-gradient(rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.768)), url(./media/bgnetflix.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: 0px;
+    width: 100vw;
+    height: 734px;
+    border-bottom: 8px solid #222;
+}
+nav{
+    margin: 0px 56px;
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+nav svg{
+    width: 167px;
+    height: 45px;
+    fill: #e50914;
+}
+#options i{
+    color: white;
+    position: relative;
+    left: 25px;
+    top: 2px;
+    fill: #fff;
+}
+#options select{
+    color: white;
+    background-color: transparent;
+    margin-right: 32px;
+    padding: 7px 17px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+#options select option{
+    background-color: gray;
+}
+/* #options a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 17px;
+    background-color: #e50914;
+    border-radius: 3px;
+} */
+#options button{
+    color: white;
+    padding: 7px 17px;
+    background-color: #e50914;
+    border-radius: 3px;
+    border-radius: 2px;
+}
+/* Section1 css part */
+#section1
+{
+    color: white;
+    text-align: center;
+    width: 950px;
+    height: 494px;
+    /* padding: 70px 45px; */
+    margin: 170px auto 0px auto;
+    
+}
+#section1 h1{
+    font-size: 64px;
+    width: 800px;
+    height: 140.8px;
+    margin: 0px 70px 0px 70px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+#section1 h2{
+    font-size:26px;
+    width: 800px;
+    height: 33.6px;
+    margin: 16px 75px 16px 75px;
+    font-weight: 400;
+}
+#section1 form{
+    width: 950px;
+    height: 124px;
+    padding-top: 13.6px;
+    text-align: center;
+}
+#section1 h3{
+    font-size: 19.2px;
+    width: 714.4px;
+    height: 44px;
+    padding: 0px 47.5px 20px 47.5px;
+    margin: 0px 117.8px 0px 117.8px; 
+    
+    font-weight: 400;
+    text-align: center;
+}
+#section1 form div{
+    width: 745.2px;
+    height: 80px;
+    margin: 0px 102.3px 0px 102.3px;
+    font-size: 26px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+}
+#section1 form div input{
+    width: 500px;
+    height: 70px;
+    font-size: 16px;
+    
+}
+#section1 form div button{
+    width: 245.23px;
+    height: 70px;
+    background-color: #e50914;
+    background-image: linear-gradient(180deg,#e50914,#db0510);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    color: #fff;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    line-height: normal;
+    font-size: 30px;
+    position: relative;
+    padding: 0px 30px 0px 30px;
+    top: -1px;
+    border: #e50914 solid 1px;
+
+}
+/* Section2 css part */
+#section2{
+    width: 100vw;
+    height: 473.93px;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+    background-color: black;
+    display: block;
+}
+#section2 >div{
+    width: 1100px;
+    height: 325.9px;
+    display: flex;
+    margin: 0px 164.6px 0px 164.6px;
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+#section2 #text2{
+    width: 547px;
+    /* height: 181.8px; */
+    height: 100%;
+    padding-right: 48px;
+    padding-top: 60px;
+    margin: -55px 0px -55px 0px;
+    display: block;
+    color: #fff;
+    
+   
+}
+#text2 h1{
+    width: 547px;
+    height: 55px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 1.1;
+}
+#text2 h2{
+    width: 547px;
+    height: 100.8px;
+    margin: 19.5px 0px 6.5px 0px;
+    font-size: 26px;
+    font-weight: 400;
+}
+#section2 #TV2{
+    width: 530.2px;
+    height: 401.6px;
+    margin: -50.4px -25.238px -25.238px 0px;
+}
+#TV2 img{
+    width: 530px;
+    height: 398px;
+    z-index: 2;
+    position: relative;
+}
+#TV2 video{
+    width: 387.04px;
+    height: 216.89px;
+    display: inline-block;
+    position: relative;
+    bottom: 320px;
+    right: -70px;
+    backface-visibility: hidden;
+    z-index: 1;
+}
+/* section3 css part */
+#section3{
+    background: black;
+    width: 100vw;
+    height: 470.14px;
+    padding: 70px 45px;
+    border-bottom:8px solid #222;
+    color: #fff;
+}
+#section3>div{
+    width: 1100px;
+    height: 322.14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row-reverse;
+}
+#text3{
+    width: 593.04px;
+    height: 203.2px;
+    padding-left: 48px;
+    color: #fff;
+}
+#text3 h1{
+    width: 547.04px;
+    height: 110px;
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 500;
+    margin-bottom: 8px;
+
+}
+#text3 h2{
+    width: 547.03px;
+    height: 67.2px;
+    margin: 19.5px 0px 6.5px 0px;
+    font-size: 26px;
+    font-weight: 400;
+}
+#mobile{
+    width: 504.96px;
+    height: 100%;
+}
+#mobile>img{
+    width: 505px;
+    height: 379px;
+    position: relative;
+    bottom: 30px;
+    left:30px
+    
+}
+#mobile>div{
+    background-color: black;
+    width: 330px;
+    height: 96px;
+    padding: 8px 12px;
+    border: 2px solid rgb(47, 47, 47);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 140px;
+    left: 105px;
+}
+#mobile>div img:first-child{
+    width: 52px;
+    height: 76px;
+}
+#mobile>div div{
+    width: 189px;
+    height: 39px;
+    padding: 4.8px 0px;
+}
+#mobile>div div h3
+{
+    color: white;
+    font-size: 16px;
+}
+#mobiles>div div h4
+{
+    color: blue;
+    font-size: 14.4px;
+}
+#mobile>div img:last-child{
+    width: 48px;
+    height: 60px;
+}
+
+/* section4 CSS Part */
+#section4{
+    width: 100vw;
+    height: 543.35px;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+    background-color: black;
+}
+#section4> div{
+    color: #fff;
+    width: 1100px;
+    height: 395.35px;
+    margin: 0px 164.6px 0px 164.6px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+#text4{
+    width: 547.037px;
+    height: 148.2px;
+    padding-right: 48px;
+    margin: -22px 0px -22px 0px;
+}
+#text4 h1{
+    width: 547.037px;
+    height: 55px;
+    margin-bottom: 8px;
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 500;
+}
+#text4 h2{
+    width: 547.037px;
+    height: 67.2px;
+    margin-top: 19.5px;
+    margin-bottom: 6.5px;
+    font-size: 26px;
+    font-weight: 400;
+}
+#TV4{
+    width: 555px;
+    height: 450.5px;
+    margin-top: -25.238px;
+    margin-right: -50.487px;
+}
+#TV4 img{
+    width: 555px;
+    height: 417px;
+    position: relative;
+    z-index: 2;
+}
+#TV4 video{
+    width: 349.93px;
+    height: 197.68px;
+    position: relative;
+    z-index: 1;
+    bottom: 380px;
+    right: -100px;
+
+}
+/* section5 CSS part */
+#section5{
+    width: 100vw;
+    height: 530.71px;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+    background-color: black;
+    
+}
+#section5>div
+{
+    width: 1100px;
+    height: 382.71px;
+    margin: 0px 164.6px 0px 164.6px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;	
+    color: #fff;
+
+}
+#text5{
+    width: 595.04px;
+    height: 236.8px;
+    padding-left: 48px;
+}
+#text5 h1{
+    width: 547.04px;
+    height: 110px;
+    margin-bottom: 8px;
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 500;
+
+}
+#text5 h2{
+   width: 547.03px;
+   height: 100.8px;
+    margin-top: 19.5px;
+    margin-bottom: 6.5px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#img img{
+    width: 505px;
+    height: 379px;
+}
+
+/* section6 CSS part */
+#section6{
+    width: 100vw;
+    height: 941.8px;
+    padding: 70px 45px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    border-bottom: 8px solid #222;
+    background-color: black;
+}
+#section6 >div{
+    width: 1429.2px;
+    height: 793.8px;
+}
+#section6 form{
+    width: 950px;
+    height: 124px;
+    padding-top: 13.6px;
+    text-align: center;
+}
+#section6 h3{
+    font-size: 19.2px;
+    width: 714.4px;
+    height: 44px;
+    padding: 0px 47.5px 20px 47.5px;
+    margin: 0px 117.8px 0px 117.8px; 
+    
+    font-weight: 400;
+    text-align: center;
+}
+#section6 form div{
+    width: 745.2px;
+    height: 80px;
+    margin: 0px 102.3px 0px 102.3px;
+    font-size: 26px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+}
+#section6 form div input{
+    width: 500px;
+    height: 70px;
+    font-size: 16px;
+    
+}
+#section6 form div button{
+    width: 245.23px;
+    height: 70px;
+    background-color: #e50914;
+    background-image: linear-gradient(180deg,#e50914,#db0510);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    color: #fff;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    line-height: normal;
+    font-size: 30px;
+    position: relative;
+    padding: 0px 30px 0px 30px;
+    top: -1px;
+    border: #e50914 solid 1px;
+
+}
+/* FOOTER CSS part */
+#footer{
+    width: 1090px;
+    height: 393.8px;
+    padding: 70px 45px 0px 45px;
+    margin: 0px auto; 
+    background-color: black;
+
+}
+#footer>div{
+    width: 1000px;
+    height: 303.8px;
+    padding-bottom: 20px;
+}
+#footer-content{
+    width: 900px;
+    height: 290.8px;
+    margin-left: 50px +250px;
+    margin-right: 50px + 250px;
+    color: #737373;
+    
+}
+#footer-content p{
+    width: 900px;
+    height: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+#footer-content ul{
+    width: 900px;
+    height: 128px;
+    margin-top: 20px;
+    display: block;
+    list-style-type: disc;
+
+
+   
+}
+#footer-content li{
+    width: 225px;
+    height: 16px;
+    padding-right: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    /* text-align: webkit-match-parent; */
+    direction: ltr;
+        display: inline-block;
+  
+        vertical-align: top;
+      
+}
+#footer-content  li a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 13px;
+    cursor: pointer;
+    background: transparent;
+    list-style: none;
+}
+#footer-content #options2{
+    width: 900px;
+    height: 52.8px;
+    margin-top: 20px;
+   
+}
+
+#options2 i{
+    color:#737373;
+    position: relative;
+    left: 22px;
+    top: 2px;
+    
+}
+#options2 select{
+    color: white;
+    background-color: transparent;
+    margin-right: 32px;
+    padding: 7px 17px;
+    width: 80px;
+    height: 52.8;
+    margin-top: 15px;
+    border: #737373 1px solid;
+}
+#options2 select option{
+    background-color: rgba(0, 0, 0, 0.93);
+    color: #fff;
+    font-size: small;
+
+}
+#footer-content #last{
+    width: 900px;
+    height: 16px;
+    margin-top: 24px;
+    margin-bottom: 13px;
+    font-size: 13px;
+}
